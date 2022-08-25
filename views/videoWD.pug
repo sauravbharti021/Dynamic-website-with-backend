@@ -1,0 +1,68 @@
+extends base.pug 
+
+block style     
+    style 
+        include ../static/homestyle.css
+        include ../static/stylevideoWD.css 
+
+
+block content 
+    div.containervwd
+        div.boxh1
+            h1 Videos for Web Development for beginners
+
+        div.row1vwd 
+            div.box#box1 
+                h3 Free Codecamp full Web Dev. Tutorial
+                iframe(width="350" height="250" src ="https://www.youtube.com/embed/mU6anWqZJcc")
+
+            div.box#box2 
+                h3 Code with Harry Hindi Web Dev. course
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/6mbwJ2xhgzM?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg")  
+
+            div.box#box3
+                h3 Introduction to HTML for beginners 
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/qz0aGYrrlhU")
+
+        div.row2vwd 
+            div.box#box4 
+                h3 Structuring the website 
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/60YKxDgAZig") 
+
+            div.box#box5 
+                h3 Introduction to CSS 
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/1Rs2ND1ryYc")    
+
+            div.box#box6 
+                h3 A gym website using html and CSS   
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/Sj5NX_br5WY?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg")  
+
+        div.row3vwd 
+            div.box#box7 
+                h3 Display properties of CSS 
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/Qf-wVa9y9V4")  
+
+            div.box#box8 
+                h3 Introduction to NodeJS 
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/BLl32FvcdVM")  
+
+            div.box#box8 
+                h3 Template engines of NodeJS 
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/mgQ1vBZvMes")
+
+        div.row4vwd 
+            div.box#box10 
+                h3 NodeJS NPM and express  
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/YBwWGvdUbQU")  
+
+            div.box#box11
+                h3 Introduction to Mongo DataBase 
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/_lLz56gRYe4" )  
+
+            div.box#box12 
+                h3 Hosting your website free on HEROKU
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/wIH2qBLwonE")                                 
+
+block script 
+    script
+        include ../static/index.js                 

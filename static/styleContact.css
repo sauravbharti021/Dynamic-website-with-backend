@@ -1,0 +1,73 @@
+.navbar::before{
+    background: none;
+}
+.navbar{
+    background-color: black;
+    width: auto;
+}
+body{
+    height: 100vh;
+    background: url("../static/images/bg.jpg") center center no-repeat;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inputclass{
+    width: 432px;
+    margin: 10px;
+    padding: 4px;
+    font-size: 15px;
+    border: 3px solid rgb(125, 35, 35);
+    border-radius: 6px;
+}
+
+.btnapply{
+    padding:4px;
+    background-color: rgb(125, 35, 35);
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    width:95px
+}
+
+
+.containerapply h1{
+    
+    text-align: center;
+}
+
+.containerapply{
+    min-height: 90vh;
+}
+.inputclass[name="detail"]{
+    height: 110px;
+    font-family: none;
+    font-size: 17px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+   color: white;
+}
+
+@media only screen and (max-width:1286px) {
+    .inputclass{
+        width: 70%;
+        height: 60px;
+    }   
+}
+
+@media only screen and (max-width:600px){
+
+   .containerapply ::placeholder{
+        color: black;
+    }
+
+ 
+} 

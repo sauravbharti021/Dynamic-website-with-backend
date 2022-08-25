@@ -1,0 +1,42 @@
+doctype html
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Billa CP
+    
+    block style
+    
+  body
+    div.container
+      nav.navbar#navigation
+          a(href='/home', target='_self')
+            img( src='../static/images/cute-white-cat-cartoon-vector-illustration_42750-808.png')
+          ul.menu 
+            
+            li #[a.links(href="/home")  Home] 
+            li #[a.links(href="/video")  Videos] 
+            li #[a.links(href="/blog")   Blog]
+            li #[a.links(href="/apply")   Apply]
+
+          div.search1 
+            input(type="text" class="search" name="name" placeholder="Enter your search") 
+            li.search2 #[a.btn1(href="/search") #[button.btn#btnsearch Search ] ]
+          li #[a.btn1(href="/login") #[button.btn#btnlogin Login ] ]
+          
+                
+              
+
+          div.hamburger 
+            span.col 
+            span.col
+            span.col  
+
+    block content
+
+        
+    block foot
+    footer 
+        div.footer 
+            | Copyright @BillaCP.com | 2022 | All rights reserved   
+
+    block script            

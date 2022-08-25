@@ -1,0 +1,76 @@
+doctype html
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Billa CP
+    style
+        include ../static/homestyle.css
+
+    
+    
+  body
+    
+    div.container
+      nav.navbar#navigation
+        a(href='/home', target='_self')
+            img( src='../static/images/cute-white-cat-cartoon-vector-illustration_42750-808.png')
+        ul.menu 
+          
+          li #[a.links(href="/home")  Home] 
+          li #[a.links(href="/video")  Videos] 
+          li #[a.links(href="/blog")   Blog]
+          li #[a.links(href="/apply")   Apply]
+
+        div.search1 
+          input(type="text" class="search" name="name" placeholder="Enter your search") 
+          li.search2 #[a.btn1(href="/search") #[button.btn#btnsearch Search ] ]
+        li #[a.btn1(href="/login") #[button.btn#btnlogin Login ] ]
+        
+             
+            
+
+        div.hamburger 
+          span.col 
+          span.col
+          span.col  
+
+    div.middle 
+
+      div.logomid
+        img(src="../static/images/billa.png", alt="")
+        h1 Welcome to BillaCP.com
+        li Confused on which course you should take? Where to find resource? Then this might be the right place for you
+        h1.detail Here, I have attached all the resources that you will need to learn the basic of Web development and DSA.
+      div.boxmid 
+        div.boxmid1
+          img(src="../static/images/wd img.png", alt="")
+          h2 Web development
+          div.boxinside
+            h4 Read Blogs
+            li #[a(href="/blogWD") #[button#btnhomepage Read] ]
+            h4 Watch video tutorials
+            li #[a(href="/videoWD") #[button#btnhomepage Watch] ]
+
+
+        div.boxmid2
+          img(src="../static/images/dsa img.png", alt="")
+          h2 Resources for DSA
+          div.boxinside
+            h4 Read Blogs
+            li #[a(href="/blogWD") #[button#btnhomepage Read] ]
+            h4 Watch video tutorials
+            li #[a(href="/videoWD") #[button#btnhomepage Watch] ]
+          
+
+        div.boxmid3
+          img(src="../static/images/blog img.png", alt="")
+          div.boxinside
+            h2  Write for us and earn money      
+            li #[a.btn2(href="/apply") #[button#btnhomepage Write For Us ] ]
+
+    footer 
+       div.footer 
+        | Copyright @BillaCP.com | Owned by Saurav Bharti | 2022 | All rights reserved
+
+    script
+      include ../static/index.js    

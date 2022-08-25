@@ -1,0 +1,29 @@
+extends base.pug 
+
+
+
+block style
+    style 
+        include ../static/homestyle.css
+        include ../static/styleLogin.css
+        
+      
+    script(src='https://kit.fontawesome.com/88b1ede0ba.js', crossorigin='anonymous')
+block content
+            
+        div.containerlogin 
+            h1  Login to BillaCP.com 
+            form(action="/login", method="post", class="myform"  )
+                div.box
+                    i.fa-solid.fa-envelope
+                    input#email(type='email' name='email' placeholder='Enter your email')
+
+                div.box
+                    i.fa-solid.fa-key
+                    input#passowrd(type='password' name='password' placeholder='Enter your password')
+                button#btnloginpug  Sign In
+
+block script 
+    script
+        include ../static/index.js  
+        include ../app.js    

@@ -1,0 +1,25 @@
+extends base.pug
+
+
+block style
+    style 
+        include ../static/homestyle.css
+        include ../static/styleContact.css
+      
+
+block content
+        div.containerapply 
+            h1  Write for us 
+            form(action="/apply", method="post", class="myform"  )
+                input(type="text" class="inputclass" name="name" placeholder="Enter your name") 
+                input(type="phone" class="inputclass" name="phone" placeholder="Enter your phone")
+                input(type="email" class="inputclass" name="email" placeholder="Enter your email")
+                input(type="qualification" class="inputclass" name="qualification" placeholder="Enter your qualifications")
+                textarea.inputclass(type='text' name='detail' placeholder='Tell about yourself')
+
+                button(class="btnapply", id="btnapplynow") Submit
+
+block script 
+    script
+        include ../static/index.js 
+        include ../app.js            

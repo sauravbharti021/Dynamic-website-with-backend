@@ -1,0 +1,144 @@
+body{
+    height: auto;
+    background-color: #ddedeb;
+}
+.midsection::before{
+    background: url('../static/images/itl.cat_html-wallpaper_3099034.png') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    content: "";
+    height: 300px;
+    width: 100%;
+    opacity: 1;
+    z-index: -4;
+}
+.midsection{
+    display: flex;
+    justify-content: center;
+}
+li{
+    text-align: center;
+}
+.midsection h1{
+    font-size: 39px;
+    margin: 87px;
+    background-color: purple;
+    color: #cc6073;
+    border-radius: 20px;
+    padding: 11px 22px;
+    font-family: cursive;
+}
+
+#box1video{
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 330px;
+    justify-content: space-around;
+    border-radius: 15px;
+    background-color: #9bd1cb;
+}
+#box2video{
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 330px;
+    justify-content: space-around;
+    background-color: #9bd1cb;
+    border-radius: 15px;
+}
+#box3video{
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 330px;
+    justify-content: space-around;
+    border-radius: 15px;
+    background-color: #9bd1cb;
+}
+.boxvideo .box{
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-direction: row;
+    
+  
+} 
+.box h2{
+    text-align: center;
+}
+
+
+
+.btnvideo{
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    background-color: #32968b;
+}
+.btnvideo:hover{
+    background-color: #ddedeb;
+    cursor: pointer;
+}
+
+#box1video:hover{
+    background-color: #c5dedb;
+}
+#box2video:hover{
+    background-color: #c5dedb;
+}
+#box3video:hover{
+    background-color: #c5dedb;
+}
+
+footer{
+    position: relative;
+    text-align: center;
+        text-align: center;
+        background-color: black;
+       color: white;
+       height: 20px;
+    top: 0vh;
+}
+
+@media only screen and (max-width:949px) {
+    .boxvideo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .boxvideo .box {
+        display: flex;
+        
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #box1video{
+        height: 500px;
+        width: 80%;
+        margin: 20px 0px;
+    }
+    #box2video{
+        height: 500px;
+        width: 80%;
+        margin: 20px 0px;
+    }
+    #box3video{
+        height: 500px;
+        width: 80%;
+        margin: 20px 0px;
+    }
+
+    footer{
+        height: 80px;
+    }
+}

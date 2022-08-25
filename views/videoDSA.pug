@@ -1,0 +1,71 @@
+extends base.pug
+
+block style     
+    style 
+        include ../static/homestyle.css
+        include ../static/stylevideoDSA.css 
+
+
+block content 
+    div.containervdsa
+        div.boxh1
+            h1 Tutorials for Data Structure and Algorithms beginners
+
+        div.row1vdsa
+            div.box#box1 
+                h3 Why DSA or CP a necessity?
+                iframe(width="350" height="250" src ="https://www.youtube.com/embed/3Mb6sWA3w3E")
+
+            div.box#box2 
+                h3 Which language to choose?
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/9OMYU8L32pc")  
+
+            div.box#box3
+                h3 Arrays and vector in CPP 
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/yo671zcRZr8")
+
+        div.row2vdsa 
+            div.box#box4 
+                h3 Hashing
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/2_3fR-k-LzI") 
+
+            div.box#box5 
+                h3 Set multiset in C++ 
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/7mx2BasNK0w")    
+
+            div.box#box6 
+                h3 Sorting and using the comparator   
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/JiMcwYYZhtc")  
+
+        div.row3vdsa
+            div.box#box7 
+                h3 Binary Searching
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/GU7DpgHINWQ")  
+
+            div.box#box8 
+                h3 Prefix Sum 
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/ITb72ISCkZM")  
+
+            div.box#box8 
+                h3 Introduction to Dynamic programming 
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/Clp5c7HvLqs")
+
+        div.row4vdsa
+            div.box#box10 
+                h3 Stacks and Queues
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/fV_DchJem0U")  
+
+
+            div.box#box11 
+                h3 Introduction to graphs  
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/YnhvY6iFX7I")  
+
+
+            div.box#box12
+                h3 Priority Queues 
+                iframe(width="350" height="250" src="https://www.youtube.com/embed/3QN47CkejAk")  
+
+
+block script 
+    script
+        include ../static/index.js  

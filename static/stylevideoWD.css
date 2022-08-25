@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(241, 213, 241);
+    height: auto;
+}
+.navbar::before{
+    background: none;
+}
+.navbar{
+    background-color: black;
+    width: auto;
+}
+.boxh1{
+    display:flex;
+    justify-content: space-around;
+}
+.boxh1 h1{
+    margin:10px 0px;
+    background-color: palegreen;
+    border-radius: 10px;
+    padding: 20px; 
+    text-align: center;
+}
+
+#box1{
+   
+    align-items: center;
+    /* justify-content: center; */
+}
+.containervwd h3{
+    color: red;
+    text-align: center;
+    text-shadow: 2px 1px 2px orange;
+}
+.row1vwd{
+    display: flex;
+    justify-content: space-around;
+}
+.row2vwd{
+    display: flex;
+    justify-content: space-around;
+}
+.row3vwd{
+    display: flex;
+    justify-content: space-around;
+}
+.row4vwd{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    padding: 10px 15px;
+    /* border: 5px solid greenyellow; */
+    border-radius: 5px;
+    background-color: rgb(162, 247, 229);
+    margin:20px 0px;
+}
+.box:hover{
+    background-color: rgba(249, 244, 237, 0.426);
+}
+
+
+footer{
+    position: relative;
+    text-align: center;
+        text-align: center;
+        background-color: black;
+       color: white;
+       height: 20px;
+    top: 0vh;
+}
+
+@media only screen and (max-width: 1168px) {
+    .row1vwd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .row2vwd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .row3vwd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .row4vwd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .box{
+        width: 60%;
+    }
+    iframe{
+        width: 100%;
+    }
+    footer{
+        height: 75px;;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .box{
+        width: 100%;
+    }
+}

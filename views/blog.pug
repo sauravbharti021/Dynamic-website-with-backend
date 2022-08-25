@@ -1,0 +1,37 @@
+extends base.pug 
+
+
+
+block style
+    style 
+        include ../static/homestyle.css
+        include ../static/stylevideo.css
+        
+      
+    
+block content
+            
+        div.midsection
+            h1  Blogs 
+        div.boxvideo
+            div.box
+                div#box1video
+                    img(src="../static/images/content frontpage/ds logo.png")
+                    h2 Data Structure tutorials for Beginners
+                    li Learn sequentially by reading blogs
+                    li #[a(href="/blogDSA") #[button.btnvideo Read now ]]
+                div#box2video 
+                    img(src="../static/images/content frontpage/wd logo.png")
+                    h2 Web Development tutorials for Beginners In English
+                    li Read important concepts of web developing
+                    li #[a(href="/blogWD") #[button.btnvideo Read now ]]
+                div#box3video  
+                    img(src="../static/images/content frontpage/all.png")
+                    h2  Learn both at one place
+                    li Read for both courses at same place.
+                    li #[a(href="/allblog") #[button.btnvideo Read now ]]
+
+
+block script 
+    script
+        include ../static/index.js  

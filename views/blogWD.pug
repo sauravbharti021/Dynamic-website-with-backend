@@ -1,0 +1,89 @@
+extends base.pug 
+
+
+
+block style
+    style 
+        include ../static/homestyle.css
+        include ../static/styleblogWD.css
+        
+        
+        
+      
+    script(src='https://kit.fontawesome.com/88b1ede0ba.js', crossorigin='anonymous')
+block content
+            
+       div.containerbwd
+        div.boxh1
+            h1 Important topics of web developing for beginners
+
+        div.row1bwd 
+            div.box#box1 
+                a(href='https://www.geeksforgeeks.org/web-development/', target='_self')
+                    img( src='../static/images/blogwd images/th1.png')
+                li #[a.btn1(href="https://www.geeksforgeeks.org/web-development/", target="_blank") #[button.btn Read More ] ]
+
+            div.box#box2 
+                a(href='https://www.w3schools.com/html/html_intro.asp', target='_self')
+                    img( src='../static/images/blogwd images/th2.png')
+                li #[a.btn1(href="https://www.w3schools.com/html/html_intro.asp", target="_blank") #[button.btn Read More ] ]  
+
+            div.box#box3
+                a(href='https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure', target='_self')
+                    img( src='../static/images/blogwd images/th3.png')
+                li #[a.btn1(href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure", target="_blank") #[button.btn Read More ] ]
+
+        div.row2bwd 
+            div.box#box4 
+                a(href='https://www.w3schools.com/css/css_intro.asp', target='_self')
+                    img(src="../static/images/blogwd images/th4.png", alt="")
+                li #[a.btn1(href="https://www.w3schools.com/css/css_intro.asp", target="_blank") #[button.btn Read More ] ] 
+
+            div.box#box5 
+                a(href='https://www.w3schools.com/css/css_selectors.asp', target='_self')
+                    img(src="../static/images/blogwd images/th5.png", alt="")
+                li #[a.btn1(href="https://www.w3schools.com/css/css_selectors.asp", target="_blank") #[button.btn Read More ] ]    
+
+            div.box#box6 
+                a(href="https://www.w3schools.com/css/css3_flexbox.asp", target='_self')
+                    img(src="../static/images/blogwd images/th6.png", alt="")
+                li #[a.btn1(href="https://www.w3schools.com/css/css3_flexbox.asp", target="_blank") #[button.btn Read More ] ]  
+
+        div.row3bwd 
+            div.box#box7 
+                a(href='https://nodejs.org/en/about/', target='_self')
+                    img(src="../static/images/blogwd images/th7.png", alt="")
+                li #[a.btn1(href="https://nodejs.org/en/about/", target="_blank") #[button.btn Read More ] ]  
+
+            div.box#box8 
+                a(href='https://www.npmjs.com/package/express', target='_self')
+                    img(src="../static/images/blogwd images/th8.png", alt="")
+                li #[a.btn1(href="https://www.npmjs.com/package/express", target="_blank") #[button.btn Read More ] ]  
+
+            div.box#box9 
+                a(href='https://expressjs.com/en/guide/using-template-engines.html', target='_self')
+                    img(src="../static/images/blogwd images/th9.png", alt="")
+                li #[a.btn1(href="https://expressjs.com/en/guide/using-template-engines.html", target="_blank") #[button.btn Read More ] ]
+
+        div.row4bwd 
+            div.box#box10 
+                a(href='https://www.freecodecamp.org/news/learn-backend-development/', target='_self')
+                    img(src="../static/images/blogwd images/th10.png", alt="")
+                li #[a.btn1(href="https://www.freecodecamp.org/news/learn-backend-development/", target="_blank") #[button.btn Read More ] ]  
+
+            div.box#box11
+                a(href='https://en.wikipedia.org/wiki/MongoDB', target='_self')
+                    img(src="../static/images/blogwd images/th11.png", alt="")
+                li #[a.btn1(href="https://en.wikipedia.org/wiki/MongoDB", target="_blank") #[button.btn Read More ] ]  
+
+            div.box#box12 
+                a(href='https://www.freecodecamp.org/news/how-to-deploy-an-application-to-heroku/', target='_self')
+                    img(src="../static/images/blogwd images/th12.png", alt="")
+                li #[a.btn1(href="https://www.freecodecamp.org/news/how-to-deploy-an-application-to-heroku/", target="_blank") #[button.btn Read More ] ]
+
+
+        
+
+block script 
+    script
+        include ../static/index.js  
