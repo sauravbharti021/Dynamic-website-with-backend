@@ -140,6 +140,7 @@ a .btn1{
     width: 25px;
     height: 3px;
     margin: 5px auto;
+    border-radius: 4px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out ;
     background-color: white;
@@ -308,7 +309,7 @@ h1.detail{
    color: black;
    text-decoration: underline;
    margin-bottom: 8px;
-   font-family: cursive;
+   font-family: 'Baloo Da 2', cursive;
 }
 
 .boxmid h4{
@@ -435,21 +436,32 @@ footer{
     }
 
     #btnsearch{
-        font-size:25px ;
+        font-size:20px ;
     }
     #btnlogin{
-        font-size: 25px;
+        font-size: 20px;
     }
 
      .col{
-        width: 40px;
+        margin: 2px auto;
+        margin-left: 3px;
+        margin-right: 3px;
+        
+        padding: 0px 3px;
+        width: 30px;
         height: 10px;
     }
     ul.menu li {
-        font-size: 31px;
+        font-size: 26px;
     }
     .navbar .menu{
         top:73px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    body{
+        font-size: 20px;
     }
     
 

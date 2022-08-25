@@ -25,7 +25,7 @@ body{
     left: 37%;
 }
 .containerlogin h1{
-    font-family: 'DynaPuff', cursive;
+    font-family: 'Baloo Da 2', cursive;
     color: orangered;
     font-size: 42px;
     padding: 10px 0px 0px 0px;
@@ -59,7 +59,7 @@ body{
   }
 
 #btnloginpug{
-    font-family: 'DynaPuff', cursive;
+    
     background: black;
     cursor: pointer;
     text-align: center;
@@ -85,6 +85,21 @@ footer{
 
 
 @media only screen and (max-width:600px) {
+
+    ::-webkit-input-placeholder { /* WebKit browsers */
+        color:    #fff;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color:    #fff;
+        opacity:  1;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color:    #fff;
+        opacity:  1;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+        color:    #fff;
+    }
     
 
     .containerlogin{
