@@ -14,7 +14,7 @@ document.querySelectorAll(".links").forEach(n => n.addEventListener("click",() =
 
 const search= document.getElementById('btnsearch');
 search.addEventListener("click", ()=>{
-    alert("Sorry!! We are still working on search. Please go backwards.")
+    alert("Sorry!! We are still working on search.")
 }) 
 
 

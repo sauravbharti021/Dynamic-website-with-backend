@@ -118,8 +118,11 @@ a .btn1{
     
 }
 .search{
-    text-align: center;
+    /* text-align: center; */
     width: 53%;
+}
+.search::placeholder{
+    text-align: center;
 }
 .search2{
     z-index: 4000;

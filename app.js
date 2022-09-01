@@ -23,7 +23,7 @@ app.set("views", path.join(__dirname, 'views'));
 
 
   app.get("/", (req,res)=>{
-   res.render('home.pug');
+   res.render('login.pug');
   })
 
   app.get("/home", (req,res)=>{
@@ -115,7 +115,7 @@ app.post('/login', (req, res) => {
   //// It will return a promise
   data.save().then(()=>{
      
-     res.render('redirect-login.pug')
+     res.render('home.pug')
   
   } ).catch(()=>{
     res.status(404).send("Item failed to save.")
