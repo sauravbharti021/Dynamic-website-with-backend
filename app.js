@@ -4,7 +4,7 @@ const mongoose =require('mongoose');
 main().catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect('mongodb+srv://sauravbharti021:Saurav786@cluster0.kbwf7j3.mongodb.net/SauravDatabase');
+  await mongoose.connect('mongodb+srv://sauravbharti021:**********cluster0.kbwf7j3.mongodb.net/SauravDatabase');
 }
 
 const port= process.env.PORT || 80;
